@@ -1,0 +1,7 @@
+bh1750.c:21:15:BH1750_Init	3
+bh1750.c:35:15:BH1750_Reset	2
+bh1750.c:49:15:BH1750_PowerState	2
+bh1750.c:61:15:BH1750_SetMode	5
+bh1750.c:76:15:BH1750_SetMtreg	5
+bh1750.c:109:15:BH1750_TriggerManualConversion	2
+bh1750.c:121:15:BH1750_ReadLight	5

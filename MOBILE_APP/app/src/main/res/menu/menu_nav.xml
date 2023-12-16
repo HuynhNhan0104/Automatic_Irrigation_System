@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+       <item
+           android:id="@+id/nav_home"
+           android:title="@string/nav_home"
+           android:icon="@drawable/baseline_home_24"
+           />
+        <item
+            android:id="@+id/nav_dash"
+            android:title="@string/nav_dash"
+            android:icon="@drawable/baseline_dashboard_24"
+            />
+        <item
+            android:id="@+id/nav_device"
+            android:title="@string/nav_device"
+            android:icon="@drawable/baseline_devices_24"
+            />
+        <item
+            android:id="@+id/nav_scheduler"
+            android:title="Scheduler"
+            android:icon="@drawable/baseline_schedule_24"/>
+
+    </group>
+    <item android:title="@string/nav_acc">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:title="@string/nav_profile"
+                android:icon="@drawable/ic_baseline_person_24"
+                />
+            <item
+                android:id="@+id/nav_pass"
+                android:title="@string/nav_pass"
+                android:icon="@drawable/ic_baseline_security_24"
+                />
+        </menu>
+    </item>
+</menu>

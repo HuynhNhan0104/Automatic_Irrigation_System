@@ -1,0 +1,3 @@
+../Core/Src/Hal/watchdog.c:14:6:WATCHDOG_init	8	static
+../Core/Src/Hal/watchdog.c:24:6:WATCHDOG_refresh	8	static
+../Core/Src/Hal/watchdog.c:29:6:WATCHDOG_test	8	static

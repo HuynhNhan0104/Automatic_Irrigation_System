@@ -1,0 +1,13 @@
+sensor_manager.c:77:13:RP_state	1
+sensor_manager.c:82:6:SENSOR_MANAGER_setup_state	3
+sensor_manager.c:98:6:SENSOR_MANAGER_clear_setup_state	2
+sensor_manager.c:110:13:Display_lcd	1
+sensor_manager.c:120:6:SENSOR_MANAGER_init	1
+sensor_manager.c:130:6:SENSOR_MANAGER_run	1
+sensor_manager.c:136:13:BH1750_run	12
+sensor_manager.c:185:13:SHT30_run	17
+sensor_manager.c:282:13:BH1750_timeout	1
+sensor_manager.c:287:13:SHT30_timeout	1
+sensor_manager.c:291:13:Serial_send_data	1
+sensor_manager.c:301:14:Calculate_mean	2
+sensor_manager.c:309:14:Calculate_variance	2

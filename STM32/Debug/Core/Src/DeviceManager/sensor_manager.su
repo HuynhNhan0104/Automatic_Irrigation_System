@@ -1,0 +1,13 @@
+../Core/Src/DeviceManager/sensor_manager.c:77:13:RP_state	8	static
+../Core/Src/DeviceManager/sensor_manager.c:82:6:SENSOR_MANAGER_setup_state	16	static
+../Core/Src/DeviceManager/sensor_manager.c:98:6:SENSOR_MANAGER_clear_setup_state	16	static
+../Core/Src/DeviceManager/sensor_manager.c:110:13:Display_lcd	32	static
+../Core/Src/DeviceManager/sensor_manager.c:120:6:SENSOR_MANAGER_init	16	static
+../Core/Src/DeviceManager/sensor_manager.c:130:6:SENSOR_MANAGER_run	8	static
+../Core/Src/DeviceManager/sensor_manager.c:136:13:BH1750_run	24	static
+../Core/Src/DeviceManager/sensor_manager.c:185:13:SHT30_run	56	static
+../Core/Src/DeviceManager/sensor_manager.c:282:13:BH1750_timeout	8	static
+../Core/Src/DeviceManager/sensor_manager.c:287:13:SHT30_timeout	8	static
+../Core/Src/DeviceManager/sensor_manager.c:291:13:Serial_send_data	40	static
+../Core/Src/DeviceManager/sensor_manager.c:301:14:Calculate_mean	32	static
+../Core/Src/DeviceManager/sensor_manager.c:309:14:Calculate_variance	40	static

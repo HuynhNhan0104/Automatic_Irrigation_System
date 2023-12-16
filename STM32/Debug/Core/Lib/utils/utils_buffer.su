@@ -1,0 +1,7 @@
+../Core/Lib/utils/utils_buffer.c:14:6:utils_buffer_init	16	static
+../Core/Lib/utils/utils_buffer.c:32:6:utils_buffer_push	24	static
+../Core/Lib/utils/utils_buffer.c:54:6:utils_buffer_pop	24	static
+../Core/Lib/utils/utils_buffer.c:74:6:utils_buffer_is_available	16	static
+../Core/Lib/utils/utils_buffer.c:90:6:utils_buffer_peek_idx	24	static
+../Core/Lib/utils/utils_buffer.c:97:6:utils_buffer_is_full	24	static
+../Core/Lib/utils/utils_buffer.c:111:6:utils_buffer_drop_all	16	static

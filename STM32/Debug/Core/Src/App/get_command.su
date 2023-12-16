@@ -1,0 +1,5 @@
+../Core/Src/App/get_command.c:67:6:SERIAL_get_command_run	16	static
+../Core/Src/App/get_command.c:150:13:clear_buffer	8	static
+../Core/Src/App/get_command.c:153:13:timeout_fn	8	static
+../Core/Src/App/get_command.c:156:13:refresh_timeout	8	static
+../Core/Src/App/get_command.c:160:13:respone_command	16	static

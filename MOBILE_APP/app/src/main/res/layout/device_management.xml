@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+
+                    <!-- Phần 1: Tỷ lệ 2 -->
+                    <LinearLayout
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="#F3EBEB" >
+
+                        <LinearLayout
+                            android:id="@+id/light_control"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/light_image">
+                            <!-- Nội dung của LinearLayout con -->
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!-- Phần 2: Tỷ lệ 5 -->
+                    <LinearLayout
+                        android:layout_width="16dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:background="#FFFFFF"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:gravity="center"
+                            android:text="Đèn"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/button_light"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginRight="55dp"
+                            app:cardBackgroundColor="#F44336"
+                            app:cardCornerRadius="50dp">
+
+                            <LinearLayout
+                                android:id="@+id/light_status"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:background="@drawable/power_on"></LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+
+                    <!-- Phần 1: Tỷ lệ 2 -->
+                    <LinearLayout
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="#F3EBEB" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/pump_image">
+                            <!-- Nội dung của LinearLayout con -->
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!-- Phần 2: Tỷ lệ 5 -->
+                    <LinearLayout
+                        android:layout_width="16dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:background="#FFFFFF"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:gravity="center"
+                            android:text="Máy bơm"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/button_pumb"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="55dp"
+                            android:layout_marginBottom="10dp"
+                            app:cardBackgroundColor="#F44336"
+                            app:cardCornerRadius="50dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/power_on"></LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal">
+
+                    <!-- Phần 1: Tỷ lệ 2 -->
+                    <LinearLayout
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="#F3EBEB" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/fan_image">
+                            <!-- Nội dung của LinearLayout con -->
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!-- Phần 2: Tỷ lệ 5 -->
+                    <LinearLayout
+                        android:layout_width="16dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:background="#FFFFFF"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="34dp"
+                            android:gravity="center"
+                            android:text="Quạt"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/button_fan"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="55dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="55dp"
+                            android:layout_marginBottom="10dp"
+                            app:cardBackgroundColor="#F44336"
+                            app:cardCornerRadius="50dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/power_on"></LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

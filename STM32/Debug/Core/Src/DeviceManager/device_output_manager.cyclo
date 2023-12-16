@@ -1,0 +1,16 @@
+device_output_manager.c:65:13:publish_state	1
+device_output_manager.c:70:6:DEVICE_MANAGER_init	2
+device_output_manager.c:97:6:DEVICE_MANAGER_run	1
+device_output_manager.c:102:6:DEVICE_MANAGER_get_data_sensor	2
+device_output_manager.c:108:7:DEVICE_MANAGER_get_setpoint	1
+device_output_manager.c:111:6:DEVICE_MANAGER_change_setpoint	7
+device_output_manager.c:134:6:DEVICE_MANAGER_set_value_condition	1
+device_output_manager.c:139:6:DEVICE_MANAGER_clear_under_remote_control	3
+device_output_manager.c:152:6:DEVICE_MANAGER_under_remote_control	2
+device_output_manager.c:170:13:CONTROL_pump	10
+device_output_manager.c:196:13:PUMP_run	12
+device_output_manager.c:234:13:device_under_remote_control	2
+device_output_manager.c:244:14:cc_mean	2
+device_output_manager.c:253:13:PUMP_set_flag_con	1
+device_output_manager.c:256:13:PUMP_get_humi_value	2
+device_output_manager.c:270:13:PUMP_timeout	1

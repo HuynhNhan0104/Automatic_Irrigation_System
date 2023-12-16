@@ -1,0 +1,6 @@
+../Core/Lib/scheduler/scheduler.c:34:6:SCH_Init	8	static
+../Core/Lib/scheduler/scheduler.c:38:6:SCH_Update	8	static
+../Core/Lib/scheduler/scheduler.c:50:10:SCH_Add_Task	48	static
+../Core/Lib/scheduler/scheduler.c:99:9:SCH_Delete_Task	32	static
+../Core/Lib/scheduler/scheduler.c:132:6:SCH_Dispatch_Tasks	40	static
+../Core/Lib/scheduler/scheduler.c:144:17:Get_New_Task_ID	8	static

@@ -1,0 +1,6 @@
+SHT30.c:10:16:calculate_crc	4
+SHT30.c:25:6:SHT30_Init	1
+SHT30.c:31:16:SHT30_Send_Command	2
+SHT30.c:41:9:SHT30_Heater_Set_Enable	2
+SHT30.c:51:9:SHT30_Read_Temperature_And_Humidity	4
+SHT30.c:72:9:SHT30_Read_Temperature_And_Humidity_v2	4

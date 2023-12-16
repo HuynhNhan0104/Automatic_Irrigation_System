@@ -1,0 +1,7 @@
+flash.c:8:6:FLASH_erase	1
+flash.c:13:6:FLASH_write_int	1
+flash.c:18:10:FLASH_read_int	1
+flash.c:24:6:FLASH_write_buf	1
+flash.c:29:6:FLASH_read_buf	2
+flash.c:40:13:FLASH_lock	1
+flash.c:45:13:FLASH_unlock	1

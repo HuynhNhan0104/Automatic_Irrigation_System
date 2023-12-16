@@ -1,0 +1,3 @@
+watchdog.c:14:6:WATCHDOG_init	2
+watchdog.c:24:6:WATCHDOG_refresh	1
+watchdog.c:29:6:WATCHDOG_test	1

@@ -1,0 +1,6 @@
+i2c.c:10:6:I2C_init	2
+i2c.c:27:6:I2C_write	1
+i2c.c:33:6:I2C_read	1
+i2c.c:39:6:I2C_write_and_read	3
+i2c.c:48:6:I2C_mem_write	1
+i2c.c:54:6:I2C_mem_read	1

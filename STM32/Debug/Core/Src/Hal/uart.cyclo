@@ -1,0 +1,6 @@
+uart.c:70:6:UART_init	13
+uart.c:89:6:UART_send	1
+uart.c:92:6:UART_receive_available	1
+uart.c:96:9:UART_receive_data	1
+uart.c:102:6:UART_clear_buffer	1
+uart.c:106:6:HAL_UART_RxCpltCallback	4

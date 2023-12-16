@@ -1,0 +1,7 @@
+../Core/Src/Hal/flash.c:8:6:FLASH_erase	16	static
+../Core/Src/Hal/flash.c:13:6:FLASH_write_int	16	static
+../Core/Src/Hal/flash.c:18:10:FLASH_read_int	24	static
+../Core/Src/Hal/flash.c:24:6:FLASH_write_buf	24	static
+../Core/Src/Hal/flash.c:29:6:FLASH_read_buf	40	static
+../Core/Src/Hal/flash.c:40:13:FLASH_lock	8	static
+../Core/Src/Hal/flash.c:45:13:FLASH_unlock	8	static
